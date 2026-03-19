@@ -1,0 +1,8 @@
+#terminal1 
+$env:JAVA_HOME = "C:\java"
+cd C:\kafka
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+#terminal2
+$env:JAVA_HOME = "C:\java"
+cd C:\kafka
+.\bin\windows\kafka-server-start.bat .\config\server.properties

@@ -1,0 +1,11 @@
+python-dotenv
+kafka-python
+mysql-connector-python
+pandas
+sqlalchemy
+psycopg2-binary
+pyspark==3.5.0
+pyspark[sql]
+pyspark[pandas_on_spark]
+plotly
+pyspark[connect]
